@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+}
+
+body {
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    margin: auto;
+}
+
+#app {
+    color: #d3d3d3;
+    background-color: rgb(49, 49, 49);
+    height: 100%;
+    overflow: hidden;
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+    text-align: left;
+}

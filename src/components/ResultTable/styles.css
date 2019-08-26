@@ -1,0 +1,75 @@
+
+
+.resultTable {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    align-content: stretch;
+    border-top: 1px rgba(100,100,100,0.2) solid;
+}
+
+.resultTable > div {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row;
+    align-items: stretch;
+    align-content: center;
+}
+
+
+.resultTable > div:nth-of-type(4) {
+    background-color: rgba(100,100,100,0.1);
+}
+
+.resultTable > div:nth-of-type(5) {
+    background-color: rgba(255,0,0,0.1);
+}
+
+.resultTable > div:nth-of-type(6) {
+    background-color: rgba(255, 127, 0, 0.1);
+}
+
+.resultTable > div:nth-of-type(7) {
+    background-color: rgba(255,255,0,0.1);
+}
+
+.resultTable > div:nth-of-type(8) {
+    background-color: rgba(0,255,0,0.1);
+}
+
+.resultTable > div:nth-of-type(9) {
+    background-color: rgba(0,255,255,0.1);
+}
+
+.resultTable > div:nth-of-type(10) {
+    background-color: rgba(0,0,255,0.1);
+}
+
+.resultTable > div:nth-of-type(11) {
+    background-color: rgba(255,0,255,0.1);
+    border-bottom: 1px rgba(100,100,100,0.2) solid;
+}
+
+.resultTable > div > div {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    align-content: center;
+    width: calc(100%/12);
+    text-align: center;
+    border-left: 1px rgba(100,100,100,0.2) solid;
+}
+
+.resultTable > div > div:nth-of-type(12) {
+    border-right: 1px rgba(100,100,100,0.2) solid;
+}
+
+.resultTable > div > div > div {
+    width: 100%;
+}
+
+.resultTable > div > div:nth-of-type(odd) {
+    background-color: rgba(100,100,100,0.1);
+}

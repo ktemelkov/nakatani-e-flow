@@ -1,0 +1,63 @@
+
+.patientInfoContainer {
+    top: 0;
+    left: 40px;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    width: calc(100% - 40x);
+    height: 75px;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+.patientInfoContainer > :first-child {
+    display: flex;
+    flex-flow: column;
+}
+
+.patientInfoContainer > :first-child > :first-child {
+    font-size: 24px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.patientInfoContainer > :first-child > :not(:first-child) {
+    font-size: 13px;
+    flex-grow: 1;
+    padding: 0;
+    margin: 0;
+}
+
+
+.patientInfoContainer > :not(:first-child) {
+    display: flex;
+    align-items: flex-end; 
+    align-content: stretch;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.patientInfoContainer > :not(:first-child) > :first-child {
+    font-size: 24px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+.patientInfoContainer > :not(:first-child) > :not(:first-child) {
+    font-size: 13px;
+    flex-grow: 1;
+    padding: 0;
+    margin: 0;
+}
